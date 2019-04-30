@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+</head>
+
+<body>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Use</th>
+        <th>Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>display</code></td>
+        <td>Changes how an element is rendered. You can change <code>inline</code> tags to behave like full-width <code>block</code> tags for example.</td>
+        <td>Options: <code>block</code>, <code>inline</code>, <code>inline-block</code>, <code>flex</code>, <code>none</code> (removed from document flow)</td>
+      </tr>
+      <tr>
+        <td><code>position</code></td>
+        <td>Type of positioning. <code>static</code> is the default.</td>
+        <td>Options: <code>static</code>, <code>absolute</code>, <code>relative</code>, <code>fixed</code>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <code>top</code> / <code>right</code> / <code>bottom</code> / <code>left</code>
+        </td>
+        <td>When using positioning, offset from edge.</td>
+        <td>Example: <code>top: -100px; left: 10%;</code> offsets the box up 100 pixels from the top edge, and 10% of parent box width to the right of the left edge.</td>
+      </tr>
+      <tr>
+        <td><code>flex</code></td>
+        <td>When using <code>display: flex;</code> on a parent element, this property specifies how many flex units the child element should consume.</td>
+        <td>An number that's a fraction of the total number of flex children: <code>.parent {display: flex;} .child {flex: 1;}</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>columns</code></td>
+        <td>Automatically divides up a box and flows inline elements into columns.</td>
+        <td>Value should be number of columns.</td>
+      </tr>
+      <tr>
+        <td><code>overflow</code></td>
+        <td>Changes how content that is larger than specified width and height behaves.</td>
+        <td>Options: <code>visible</code> (breaks out), <code>hidden</code>, <code>auto</code> (scrollbars)</td>
+      </tr>
+      <tr>
+        <td><code>float</code></td>
+        <td>When using <code>display: block;</code> you can specify how that block element interacts with other block elements. You can float an image to the right of inline text for example.</td>
+        <td>Options: <code>left</code> or <code>right</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>z-index</code></td>
+        <td>When using <code>absolute</code>, <code>fixed</code>, or <code>relative</code> positioning, you can specify the layer order of elements to ensure they display on <em>top</em> of the correct element.</td>
+        <td>Value can be a negative number or a positive number based on other z-indexed layers.</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
