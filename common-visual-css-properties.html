@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css">
+</head>
+
+<body>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Use</th>
+        <th>Values</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code>opacity</code></td>
+        <td>Setting this value can change the transparency of an element.</td>
+        <td>A decimal value from <code>0</code> to <code>1</code>. So 50% opactity would be <code>0.5</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>visibility</code></td>
+        <td>Can hide an element, but does not remove it from the page layout flow.</td>
+        <td>Options: <code>visible</code> or <code>hidden</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>transform</code></td>
+        <td>Can scale, rotate, and modify an element.</td>
+        <td>Options: <code>scale(2) rotate(45deg)</code>. See documentation link below.</td>
+      </tr>
+      <tr>
+        <td><code>transition</code></td>
+        <td>Specifies how long it takes to transition properties from one state to another. Useful for hover effects or subtle animations.</td>
+        <td><code>button {transition: all 0.3s ease;} button:hover, button.active {transform: scale(2);}</code></td>
+      </tr>
+      <tr>
+        <td><code>background</code></td>
+        <td>Specifies the background image and configuration.</td>
+        <td>Example usage: <code>background: url(../img/bg.jpg) center cover no-repeat fixed;</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>border</code></td>
+        <td>Specifies the border around the inside of a box.</td>
+        <td>Example usage: <code>border: 1px solid #ff0000;</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>color</code></td>
+        <td>Specifies the color of the text within the element.</td>
+        <td>Value can be English color name <code>red</code>, hex color <code>#ff0000</code>, or <code>rgba(255,0,0,1)</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>text-align</code></td>
+        <td>Aligns text within a block element.</td>
+        <td>Options: <code>left</code>, <code>center</code>, <code>right</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>font</code></td>
+        <td>Specifies the font family, size, and weight for an element. Normalize will set it to Helvetica/Arial globally.</td>
+        <td>See CSS Properties documentation.</td>
+      </tr>
+      <tr>
+        <td><code>box-shadow</code></td>
+        <td>Adds a shadow to a block element.</td>
+        <td>Values should be specified in this order: Offset-x Offset-y Blur-radius Spread-radius Color. Example: <code>box-shadow: 3px 10px 5px 2px gray;</code>
+        </td>
+      </tr>
+      <tr>
+        <td><code>text-shadow</code></td>
+        <td>Adds a shadow to a text element.</td>
+        <td>Values should be specified in this order: Offset-x Offset-y Blur-radius Spread-radius Color. Example: <code>text-shadow: 3px 10px 5px 2px gray;</code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
